@@ -170,9 +170,9 @@ def main():
 
     user1._set_name("ho-ho")                                        ### BAD CODE !!!
     print(f"всего пользователей: {len(admin1._Admin__user_list)}")  ### BAD HACK !!!
-    admin1._set_level("super-admin")                                ### BAD CODE !!!
+    admin1._set_level("super-admin")                                ### BAD CODE !!! hack admin1
 
-    admin1.remove_user("user2")             ### not work
+    admin1.remove_user("user2")             ### not work - admin1 hacked
     admin2.remove_user("user2")
 
     print("\nСписок пользователей после эксперимента")
